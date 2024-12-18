@@ -89,8 +89,8 @@
 }
 .bootstrap-datetimepicker-widget button[data-action] {
   padding: 6px;
-  border-color: #e75b1e;
-  background-color: #e75b1e;
+  border-color: #d09859;
+  background-color: #d09859;
 }
 .bootstrap-datetimepicker-widget .btn[data-action="incrementHours"]::after {
   position: absolute;
@@ -303,7 +303,7 @@
   display: inline-block;
   border: solid transparent;
   border-width: 0 0 7px 7px;
-  border-bottom-color: #e75b1e;
+  border-bottom-color: #d09859;
   border-top-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   bottom: 4px;
@@ -311,7 +311,7 @@
 }
 .bootstrap-datetimepicker-widget table td.active,
 .bootstrap-datetimepicker-widget table td.active:hover {
-  background-color: #e75b1e;
+  background-color: #d09859;
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
@@ -337,7 +337,7 @@
   background: #eeeeee;
 }
 .bootstrap-datetimepicker-widget table td span.active {
-  background-color: #e75b1e;
+  background-color: #d09859;
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
