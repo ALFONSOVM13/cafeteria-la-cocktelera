@@ -855,20 +855,73 @@ body {
   padding: 2px 0px;
   box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.05);
 }
+:root {
+  --color-primary: #4a3428;
+  --color-secondary: #8b7355;
+  --color-background: #fff9f5;
+  --color-text: #2c1810;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
 
+.offer-item {
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s ease;
+  margin: 6px;
+}
+
+
+.offer-item h3 {
+  color: var(--color-primary);
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.offer-item p {
+  color: var(--color-secondary);
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.offer-price {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  background: var(--color-background);
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+/* Diseño responsivo */
+@media (max-width: 480px) {
+  .offer-item {
+      flex-direction: column;
+      text-align: center;
+      padding: 1rem;
+      
+  }
+
+  .offer-price {
+      margin-top: 1rem;
+  }
+}
+/* 
 .offer-item {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-.offer-item img {
-  width: 20%;
-  float: left;
-  padding: 10px;
-  background: #fff;
-  border-radius: 50%;
-}
 
 .offer-item div {
   width: 60%;
@@ -909,7 +962,7 @@ body {
 
 .offer-item div p {
   color: #6b6b6b;
-}
+} */
 
 .tab-menu .slick-prev.slick-arrow {
   display: none;
